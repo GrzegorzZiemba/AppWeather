@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(129, 129, 129);
+	margin: 2rem;
+}
+
+.container {
+	background: rgb(255, 153, 0);
+	max-width: 1200px;
+	min-height: 70vh;
+	border: 2px solid rgb(129, 129, 129);
+	border-radius: 15px;
+	margin: 10px auto;
+	box-shadow: 1rem 1rem 2rem #000;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+	align-items: center;
+}
+
+h1 {
+	margin-top: 2rem;
+	color: gray;
+	text-align: center;
+}
+.container form {
+	text-align: center;
+	margin: 3rem auto;
+}
+
+.container form input {
+	margin-top: 2rem;
+	width: 17rem;
+	height: 2.5rem;
+	border-radius: 10px;
+	margin-right: 2rem;
+}
+.container form button {
+	width: 5rem;
+	height: 2rem;
+	border: none;
+	border-radius: 10px;
+	background-color: #aaa;
+	color: #000;
+}
+.weather-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.weather-container img {
+	margin-top: 20px;
+	max-width: 120px;
+}
